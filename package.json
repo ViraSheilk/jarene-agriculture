@@ -1,0 +1,10 @@
+{
+    "name": "jarene-application",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node jarene-backend/server.js",
+      "heroku-postbuild": "cd jarene-frontend && npm install && npm run build"
+    }
+  }
+  
