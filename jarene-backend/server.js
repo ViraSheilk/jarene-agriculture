@@ -42,4 +42,5 @@ const server = app.listen(PORT, () => {
 });
 
 // Access the server variable to confirm it's defined
+//open jarene-agriculture
 console.log(server);

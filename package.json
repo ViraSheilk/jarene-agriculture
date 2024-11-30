@@ -5,6 +5,8 @@
     "scripts": {
       "start": "node jarene-backend/server.js",
       "heroku-postbuild": "cd jarene-frontend && npm install && npm run build"
-    }
+    },
+    "engines":
+     { "node": "22.x" }
   }
   
